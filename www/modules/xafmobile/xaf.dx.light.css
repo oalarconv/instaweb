@@ -1,0 +1,32 @@
+﻿
+.dx-toolbar .dx-button .dx-button-content .dx-icon,
+.dx-toolbar .dx-button .dx-button-content .dx-button-text,
+.dx-popup-content .dx-button .dx-button-content .dx-button-text,
+.dx-popup-content.dx-dropdownmenu-list .dx-item .dx-button .dx-button-content .dx-icon,
+.dx-button .dx-icon {
+    color: #3361b7;
+}
+
+.dx-button.dx-button-default .dx-icon {
+    color: #fff;
+}
+
+.dx-button {
+    border-color: #416CBC !important;
+}
+
+.dx-button.dx-state-active {
+    background-color: #cad2e1 !important;
+}
+
+.dx-button.dx-state-hover {
+    background-color: #e0e4ec !important;
+}
+
+/*.dx-popup-content .dx-button {
+    margin: 0;
+}*/
+
+.dx-popup-content .dx-transition-absolute .dx-transition-inner-wrapper {
+    position: static;
+}
