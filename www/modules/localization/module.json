@@ -1,0 +1,25 @@
+{
+  "namespace": "XafMobileLocalization",
+  "main": "module.js",
+  "files": [
+    "cldr-core-supplemental_likelySubtags.json",
+    "cldr-core-supplemental_timeData.json",
+    "cldr-core-supplemental_weekData.json",
+    "cldr-core-supplemental_currencyData.json",
+    "cldr-core-supplemental_numberingSystems.json",
+    "cldr-core-supplemental_plurals.json",
+    "cldr-core-base_availableLocales.json",
+    "cldr-dates-full_en_ca-gregorian.json",
+    "cldr-dates-full_en_timeZoneNames.json",
+    "cldr-numbers-full_en_numbers.json",
+    "cldr-numbers-full_en_currencies.json",
+    "devextreme_en.json",
+    "en.json",
+    "cldr-dates-full_es_ca-gregorian.json",
+    "cldr-dates-full_es_timeZoneNames.json",
+    "cldr-numbers-full_es_numbers.json",
+    "cldr-numbers-full_es_currencies.json",
+    "devextreme_es.json",
+    "es.json"
+  ]
+}
