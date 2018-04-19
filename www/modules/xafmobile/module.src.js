@@ -222,6 +222,33 @@ var DevExpress;
             //    }
             //    return eval(preparedFunctionText);
             //};
+            function openFileFromUrl(url, fileName, contentType, $global) {
+                var cordova = window['cordova'];
+                if (typeof cordova !== 'undefined' && !!cordova && cordova.platformId) {
+                    var resolveLocalFileSystemURL = window['resolveLocalFileSystemURL'];
+                    var FileTransfer = window['FileTransfer'];
+                    var storageDir = cordova.platformId === 'ios' ? cordova.file.documentsDirectory : cordova.file.externalRootDirectory + 'Download/';
+                    window.resolveLocalFileSystemURL(storageDir, function (dir) {
+                        dir.getFile(fileName, { create: true }, function (fileEntry) {
+                            var fileTransfer = new FileTransfer();
+                            var fileURL = fileEntry.toURL();
+                            fileTransfer.download(encodeURI(url), fileURL, function (entry) {
+                                var fileFullName = storageDir + fileName;
+                                cordova.plugins.fileOpener2.open(fileFullName, contentType, {
+                                    error: function (e) {
+                                        DevExpress["ui"].notify({ closeOnClick: true, message: e.message }, 'error', 5000);
+                                    },
+                                    success: function () { }
+                                });
+                            }, function (error) { }, false, {});
+                        });
+                    });
+                }
+                else {
+                    window.open(url);
+                }
+            }
+            Mobile.openFileFromUrl = openFileFromUrl;
         })(Mobile = ExpressApp.Mobile || (ExpressApp.Mobile = {}));
     })(ExpressApp = DevExpress.ExpressApp || (DevExpress.ExpressApp = {}));
 })(DevExpress || (DevExpress = {}));

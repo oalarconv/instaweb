@@ -1,4 +1,4 @@
-window.AppPlayer = { Version: '1.20.21' };
+window.AppPlayer = { Version: '1.20.23' };
 System.config({
   baseURL: "./",
   defaultJSExtensions: true,
@@ -33,7 +33,7 @@ System.config({
     "paths": {
       "appPlayerLib/*": "lib/*",
       "modules/*": "modules/*",
-      "main-bundles/*": "bundles@1.20.21/*"
+      "main-bundles/*": "bundles@1.20.23/*"
     },
     "bundles": {
       "main-bundles/appPlayer.js!loadIndicator": [
