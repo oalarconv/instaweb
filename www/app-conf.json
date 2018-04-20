@@ -9037,13 +9037,13 @@
                       "id": "SaveAndNew_ClientesRecibidos",
                       "idPath": "ClientesRecibidos",
                       "text": "##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ClientesRecibidos_Caption##",
-                      "data": "MtgXafMedidores.Module.ClientesRecibidos, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null"
+                      "data": "MtgXafMedidores.Module.ClientesRecibidos, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null"
                     },
                     {
                       "id": "SaveAndNew_RutaMapa",
                       "idPath": "RutaMapa",
                       "text": "##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_RutaMapa_Caption##",
-                      "data": "MtgXafMedidores.Module.RutaMapa, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null"
+                      "data": "MtgXafMedidores.Module.RutaMapa, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null"
                     }
                   ],
                   "onItemClick": {
@@ -12652,7 +12652,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_EstadoPredioServicio\",\"idPath\":\"EstadoPredioServicio\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_EstadoPredioServicio_Caption##\",\"data\":\"MtgXafMedidores.Module.EstadoPredioServicio, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_EstadoPredioServicio\",\"idPath\":\"EstadoPredioServicio\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_EstadoPredioServicio_Caption##\",\"data\":\"MtgXafMedidores.Module.EstadoPredioServicio, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -15160,7 +15160,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_EstadoPredioServicio\",\"idPath\":\"EstadoPredioServicio\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_EstadoPredioServicio_Caption##\",\"data\":\"MtgXafMedidores.Module.EstadoPredioServicio, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_EstadoPredioServicio\",\"idPath\":\"EstadoPredioServicio\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_EstadoPredioServicio_Caption##\",\"data\":\"MtgXafMedidores.Module.EstadoPredioServicio, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -17679,7 +17679,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_ActualizacionCliente\",\"idPath\":\"ActualizacionCliente\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ActualizacionCliente_Caption##\",\"data\":\"MtgXafMedidores.Module.ActualizacionCliente, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_ActualizacionCliente\",\"idPath\":\"ActualizacionCliente\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ActualizacionCliente_Caption##\",\"data\":\"MtgXafMedidores.Module.ActualizacionCliente, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -20128,7 +20128,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_ActualizacionCliente\",\"idPath\":\"ActualizacionCliente\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ActualizacionCliente_Caption##\",\"data\":\"MtgXafMedidores.Module.ActualizacionCliente, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_ActualizacionCliente\",\"idPath\":\"ActualizacionCliente\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ActualizacionCliente_Caption##\",\"data\":\"MtgXafMedidores.Module.ActualizacionCliente, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -22748,7 +22748,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_DatosMedidores\",\"idPath\":\"DatosMedidores\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_DatosMedidores_Caption##\",\"data\":\"MtgXafMedidores.Module.DatosMedidores, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_DatosMedidores\",\"idPath\":\"DatosMedidores\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_DatosMedidores_Caption##\",\"data\":\"MtgXafMedidores.Module.DatosMedidores, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -25241,7 +25241,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_DatosMedidores\",\"idPath\":\"DatosMedidores\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_DatosMedidores_Caption##\",\"data\":\"MtgXafMedidores.Module.DatosMedidores, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_DatosMedidores\",\"idPath\":\"DatosMedidores\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_DatosMedidores_Caption##\",\"data\":\"MtgXafMedidores.Module.DatosMedidores, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -27810,7 +27810,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_CambioTitular\",\"idPath\":\"CambioTitular\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_CambioTitular_Caption##\",\"data\":\"MtgXafMedidores.Module.CambioTitular, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_CambioTitular\",\"idPath\":\"CambioTitular\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_CambioTitular_Caption##\",\"data\":\"MtgXafMedidores.Module.CambioTitular, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -30273,7 +30273,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_CambioTitular\",\"idPath\":\"CambioTitular\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_CambioTitular_Caption##\",\"data\":\"MtgXafMedidores.Module.CambioTitular, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_CambioTitular\",\"idPath\":\"CambioTitular\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_CambioTitular_Caption##\",\"data\":\"MtgXafMedidores.Module.CambioTitular, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -32765,7 +32765,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_Novedades\",\"idPath\":\"Novedades\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_Novedades_Caption##\",\"data\":\"MtgXafMedidores.Module.Novedades, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_Novedades\",\"idPath\":\"Novedades\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_Novedades_Caption##\",\"data\":\"MtgXafMedidores.Module.Novedades, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -35189,7 +35189,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_Novedades\",\"idPath\":\"Novedades\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_Novedades_Caption##\",\"data\":\"MtgXafMedidores.Module.Novedades, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_Novedades\",\"idPath\":\"Novedades\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_Novedades_Caption##\",\"data\":\"MtgXafMedidores.Module.Novedades, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -37602,7 +37602,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_ImagenesInspecciones\",\"idPath\":\"ImagenesInspecciones\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ImagenesInspecciones_Caption##\",\"data\":\"MtgXafMedidores.Module.ImagenesInspecciones, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_ImagenesInspecciones\",\"idPath\":\"ImagenesInspecciones\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ImagenesInspecciones_Caption##\",\"data\":\"MtgXafMedidores.Module.ImagenesInspecciones, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -40226,7 +40226,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_ImagenesInspecciones\",\"idPath\":\"ImagenesInspecciones\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ImagenesInspecciones_Caption##\",\"data\":\"MtgXafMedidores.Module.ImagenesInspecciones, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_ImagenesInspecciones\",\"idPath\":\"ImagenesInspecciones\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ImagenesInspecciones_Caption##\",\"data\":\"MtgXafMedidores.Module.ImagenesInspecciones, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -42772,7 +42772,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_DatosGeograficos\",\"idPath\":\"DatosGeograficos\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_DatosGeograficos_Caption##\",\"data\":\"MtgXafMedidores.Module.DatosGeograficos, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_DatosGeograficos\",\"idPath\":\"DatosGeograficos\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_DatosGeograficos_Caption##\",\"data\":\"MtgXafMedidores.Module.DatosGeograficos, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -45242,7 +45242,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_DatosGeograficos\",\"idPath\":\"DatosGeograficos\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_DatosGeograficos_Caption##\",\"data\":\"MtgXafMedidores.Module.DatosGeograficos, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_DatosGeograficos\",\"idPath\":\"DatosGeograficos\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_DatosGeograficos_Caption##\",\"data\":\"MtgXafMedidores.Module.DatosGeograficos, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
@@ -49675,7 +49675,8 @@
               ]
             }
           },
-          "listViewDataSource": "$model.listViewDataSource"
+          "listViewDataSource": "$model.listViewDataSource",
+          "customInitializeFunction": "(function(mapInstance) {\r\n            mapInstance.on('ready', function(e) {\r\n                var googleMap = e.originalMap;    \r\n                var showError = (function(errorText) {\r\n                    DevExpress.ui.notify({ closeOnClick: true, message: errorText, type: 'error' }, 'error', 5000);\r\n                });                        \r\n                if (navigator.geolocation) {\r\n                    navigator.geolocation.getCurrentPosition(function(position) {\r\n                        var pos = {\r\n                            lat: position.coords.latitude,\r\n                            lng: position.coords.longitude\r\n                        };\r\n                        var infoWindow = new google.maps.InfoWindow({map: googleMap});\r\n                        infoWindow.setPosition(pos);\r\n                        infoWindow.setContent('Ubicacion Actual.');\r\n                        googleMap.setCenter(pos);\r\n                    }, \r\n                    function(error) {\r\n                        var errorText = '';\r\n                        switch(error.code) {\r\n                            case error.PERMISSION_DENIED:\r\n                                errorText = 'User denied the request for Geolocation.'\r\n                                break;\r\n                            case error.POSITION_UNAVAILABLE:\r\n                                errorText = 'Location information is unavailable.'\r\n                                break;\r\n                            case error.TIMEOUT:\r\n                                errorText = 'The request to get user location timed out.'\r\n                                break;\r\n                            case error.UNKNOWN_ERROR:\r\n                                errorText = 'An unknown error occurred.'\r\n                                break;\r\n                        }\r\n                        showError(errorText);                            \r\n                    });\r\n                } else { showError('Your browser does not support geolocation'); }\r\n            });\r\n        })"
         }
       ],
       "dataSources": [
@@ -51247,7 +51248,7 @@
               "calls": [
                 {
                   "leftExpr": "actionParameter",
-                  "valueExpr": "{\"id\":\"SaveAndNew_ImagenesInspecciones\",\"idPath\":\"ImagenesInspecciones\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ImagenesInspecciones_Caption##\",\"data\":\"MtgXafMedidores.Module.ImagenesInspecciones, MtgXafMedidores.Module, Version=1.0.6683.20053, Culture=neutral, PublicKeyToken=null\"}",
+                  "valueExpr": "{\"id\":\"SaveAndNew_ImagenesInspecciones\",\"idPath\":\"ImagenesInspecciones\",\"text\":\"##ActionDesign_Actions_SaveAndNew_ChoiceActionItems_ImagenesInspecciones_Caption##\",\"data\":\"MtgXafMedidores.Module.ImagenesInspecciones, MtgXafMedidores.Module, Version=1.0.6684.22668, Culture=neutral, PublicKeyToken=null\"}",
                   "_type": "SetValue"
                 },
                 {
