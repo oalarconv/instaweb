@@ -9009,7 +9009,7 @@
                                     "color": ""
                                   },
                                   "type": "lookup",
-                                  "displayExpression": "ID",
+                                  "displayExpression": "condicion",
                                   "valueExpression": "this",
                                   "fullScreen": true,
                                   "pullRefreshEnabled": true,
@@ -9028,7 +9028,7 @@
                                     "color": ""
                                   },
                                   "type": "lookup",
-                                  "displayExpression": "ID",
+                                  "displayExpression": "TipoConstruccion",
                                   "valueExpression": "this",
                                   "fullScreen": true,
                                   "pullRefreshEnabled": true,
@@ -9047,7 +9047,7 @@
                                     "color": ""
                                   },
                                   "type": "lookup",
-                                  "displayExpression": "ID",
+                                  "displayExpression": "condicion",
                                   "valueExpression": "this",
                                   "fullScreen": true,
                                   "pullRefreshEnabled": true,
@@ -9080,7 +9080,7 @@
                                     "color": ""
                                   },
                                   "type": "lookup",
-                                  "displayExpression": "ID",
+                                  "displayExpression": "EstadoServicio",
                                   "valueExpression": "this",
                                   "fullScreen": true,
                                   "pullRefreshEnabled": true,
@@ -10517,7 +10517,7 @@
                     "color": ""
                   },
                   "type": "label",
-                  "text": "$data.PredioVacio.ID",
+                  "text": "$data.PredioVacio.condicion",
                   "id": "PredioVacio",
                   "title": ""
                 }
@@ -11674,7 +11674,7 @@
                                     "color": ""
                                   },
                                   "type": "label",
-                                  "text": "$model.CurrentObject.PredioVacio.ID",
+                                  "text": "$model.CurrentObject.PredioVacio.condicion",
                                   "id": "PredioVacio",
                                   "title": "##Views_EstadosPredioServicio_DetailView_Items_PredioVacio_Caption##:"
                                 },
@@ -11688,7 +11688,7 @@
                                     "color": ""
                                   },
                                   "type": "label",
-                                  "text": "$model.CurrentObject.TipoConstruccion.ID",
+                                  "text": "$model.CurrentObject.TipoConstruccion.TipoConstruccion",
                                   "id": "TipoConstruccion",
                                   "title": "##Views_EstadosPredioServicio_DetailView_Items_TipoConstruccion_Caption##:"
                                 },
@@ -11702,7 +11702,7 @@
                                     "color": ""
                                   },
                                   "type": "label",
-                                  "text": "$model.CurrentObject.ServicioExistente.ID",
+                                  "text": "$model.CurrentObject.ServicioExistente.condicion",
                                   "id": "ServicioExistente",
                                   "title": "##Views_EstadosPredioServicio_DetailView_Items_ServicioExistente_Caption##:"
                                 }
@@ -11730,7 +11730,7 @@
                                     "color": ""
                                   },
                                   "type": "label",
-                                  "text": "$model.CurrentObject.EstadoServicio.ID",
+                                  "text": "$model.CurrentObject.EstadoServicio.EstadoServicio",
                                   "id": "EstadoServicio",
                                   "title": "##Views_EstadosPredioServicio_DetailView_Items_EstadoServicio_Caption##:"
                                 },
@@ -12999,7 +12999,7 @@
                     "color": ""
                   },
                   "type": "label",
-                  "text": "$data.PredioVacio.ID",
+                  "text": "$data.PredioVacio.condicion",
                   "id": "PredioVacio",
                   "title": ""
                 }
@@ -20587,7 +20587,7 @@
                     "color": ""
                   },
                   "type": "label",
-                  "text": "$data.MedidorExistente.ID",
+                  "text": "$data.MedidorExistente.condicion",
                   "id": "MedidorExistente",
                   "title": ""
                 }
@@ -38743,12 +38743,6 @@
           "type": "Object",
           "defaultValue": "",
           "observables": [],
-          "name": "IDfoto_ReadOnly"
-        },
-        {
-          "type": "Object",
-          "defaultValue": "",
-          "observables": [],
           "name": "TipoFotoDataSourceFilter",
           "getter": "return eval($model.TipoFotoDataSourceFilterString)"
         },
@@ -39156,27 +39150,12 @@
                           "items": [
                             {
                               "style": {
-                                "width": "100%",
-                                "fontSize": "14px",
-                                "fontWeight": "400",
-                                "color": ""
-                              },
-                              "type": "input",
-                              "maxLength": 100,
-                              "placeholder": "##Views_Fotos_DetailView_Items_IDfoto_ToolTip##",
-                              "readOnly": "$model.IDfoto_ReadOnly",
-                              "value": "$model.CurrentObject.IDfoto",
-                              "id": "IDfoto",
-                              "title": "##Views_Fotos_DetailView_Items_IDfoto_Caption##:"
-                            },
-                            {
-                              "style": {
                                 "fontSize": "14px",
                                 "fontWeight": "400",
                                 "color": ""
                               },
                               "type": "lookup",
-                              "displayExpression": "ID",
+                              "displayExpression": "TipoFoto",
                               "valueExpression": "this",
                               "fullScreen": true,
                               "pullRefreshEnabled": true,
@@ -40504,9 +40483,12 @@
                 "width": "100%",
                 "padding": "5px 10px 5px 10px"
               },
-              "type": "stackPanel",
+              "type": "form",
+              "labelLocation": "top",
+              "showColonAfterLabel": false,
+              "colCount": 1,
               "id": "RowLayout",
-              "components": [
+              "items": [
                 {
                   "style": {
                     "width": "100%",
@@ -40517,9 +40499,37 @@
                     "color": ""
                   },
                   "type": "label",
-                  "text": "$data.TipoFoto.ID",
+                  "text": "$data.TipoFoto.TipoFoto",
                   "id": "TipoFoto",
                   "title": ""
+                },
+                {
+                  "style": {
+                    "width": "100%",
+                    "wordBreak": "break-all",
+                    "padding": "0px",
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "color": ""
+                  },
+                  "type": "label",
+                  "text": "=(function() { \r\n                var propertyVal; \r\n                try {\r\n                  propertyVal = $data.IDfoto;\r\n                } \r\n                catch(err) { } \r\n                return $global.replaceRn({ value: propertyVal }); }) ()",
+                  "id": "IDfoto",
+                  "title": "##Views_ClientesRecibidos_Fotos_ListView_Columns_IDfoto_Caption##"
+                },
+                {
+                  "style": {
+                    "width": "100%",
+                    "height": "auto",
+                    "margin": "0px",
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "color": ""
+                  },
+                  "type": "image",
+                  "src": "$data.FotoDataSource",
+                  "id": "Foto",
+                  "title": "##Views_ClientesRecibidos_Fotos_ListView_Columns_Foto_Caption##"
                 }
               ],
               "title": ""
@@ -40660,7 +40670,116 @@
           "filter": "$model.listViewDataSourceFilter",
           "paginate": true,
           "pageSize": 20,
-          "calculatedFields": [],
+          "calculatedFields": [
+            {
+              "name": "FotoValue"
+            },
+            {
+              "name": "FotoValueChanged"
+            },
+            {
+              "name": "FotoDataSource",
+              "getter": {
+                "logic": {
+                  "variables": [
+                    {
+                      "name": "result"
+                    },
+                    {
+                      "name": "error"
+                    },
+                    {
+                      "name": "actionParameter",
+                      "parameter": true
+                    }
+                  ],
+                  "calls": [
+                    {
+                      "expr": "if(!$data.FotoValueChanged && !!$data.Foto && !!$data.Foto.__mediaresource) {    if($data.Foto.__mediaresource.content_type == 'application/streamingmedia') {        $data.FotoValue = null;    }    else {        $data.FotoValue = $data.Foto.__mediaresource.edit_media + '?v=' + $data.Foto.__mediaresource.media_etag   } }",
+                      "_type": "Eval"
+                    },
+                    {
+                      "flow": 0,
+                      "returnExpr": "$data.FotoValue",
+                      "_type": "Event"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "FotoValue"
+            },
+            {
+              "name": "FotoValueChanged"
+            },
+            {
+              "name": "FotoDataSource",
+              "getter": {
+                "logic": {
+                  "variables": [
+                    {
+                      "name": "result"
+                    },
+                    {
+                      "name": "error"
+                    },
+                    {
+                      "name": "actionParameter",
+                      "parameter": true
+                    }
+                  ],
+                  "calls": [
+                    {
+                      "expr": "if(!$data.FotoValueChanged && !!$data.Foto && !!$data.Foto.__mediaresource) {    if($data.Foto.__mediaresource.content_type == 'application/streamingmedia') {        $data.FotoValue = null;    }    else {        $data.FotoValue = $data.Foto.__mediaresource.edit_media + '?v=' + $data.Foto.__mediaresource.media_etag   } }",
+                      "_type": "Eval"
+                    },
+                    {
+                      "flow": 0,
+                      "returnExpr": "$data.FotoValue",
+                      "_type": "Event"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "FotoValue"
+            },
+            {
+              "name": "FotoValueChanged"
+            },
+            {
+              "name": "FotoDataSource",
+              "getter": {
+                "logic": {
+                  "variables": [
+                    {
+                      "name": "result"
+                    },
+                    {
+                      "name": "error"
+                    },
+                    {
+                      "name": "actionParameter",
+                      "parameter": true
+                    }
+                  ],
+                  "calls": [
+                    {
+                      "expr": "if(!$data.FotoValueChanged && !!$data.Foto && !!$data.Foto.__mediaresource) {    if($data.Foto.__mediaresource.content_type == 'application/streamingmedia') {        $data.FotoValue = null;    }    else {        $data.FotoValue = $data.Foto.__mediaresource.edit_media + '?v=' + $data.Foto.__mediaresource.media_etag   } }",
+                      "_type": "Eval"
+                    },
+                    {
+                      "flow": 0,
+                      "returnExpr": "$data.FotoValue",
+                      "_type": "Event"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
           "expand": [
             "TipoFoto"
           ]
@@ -41764,21 +41883,7 @@
                                 "color": ""
                               },
                               "type": "label",
-                              "text": "=(function() { \r\n                var propertyVal; \r\n                try {\r\n                  propertyVal = $model.CurrentObject.IDfoto;\r\n                } \r\n                catch(err) { } \r\n                return $global.replaceRn({ value: propertyVal }); }) ()",
-                              "id": "IDfoto",
-                              "title": "##Views_Fotos_DetailView_Items_IDfoto_Caption##:"
-                            },
-                            {
-                              "style": {
-                                "width": "100%",
-                                "wordBreak": "break-all",
-                                "padding": "0px",
-                                "fontSize": "14px",
-                                "fontWeight": "400",
-                                "color": ""
-                              },
-                              "type": "label",
-                              "text": "$model.CurrentObject.TipoFoto.ID",
+                              "text": "$model.CurrentObject.TipoFoto.TipoFoto",
                               "id": "TipoFoto",
                               "title": "##Views_Fotos_DetailView_Items_TipoFoto_Caption##:"
                             },
@@ -43045,7 +43150,7 @@
                     "color": ""
                   },
                   "type": "label",
-                  "text": "$data.TipoFoto.ID",
+                  "text": "$data.TipoFoto.TipoFoto",
                   "id": "TipoFoto",
                   "title": ""
                 }
@@ -52264,7 +52369,7 @@
                     "color": ""
                   },
                   "type": "label",
-                  "text": "$data.TipoFoto.ID",
+                  "text": "$data.TipoFoto.TipoFoto",
                   "id": "TipoFoto",
                   "title": ""
                 }
@@ -91952,6 +92057,8 @@
       "##Views_ClientesRecibidos_Novedades_ListView_Columns_Observaciones_Caption##": "Observaciones",
       "##Views_ClientesRecibidos_DatosGeograficos_ListView_Caption##": "Datos Geograficos",
       "##Views_ClientesRecibidos_Fotos_ListView_Caption##": "Fotos",
+      "##Views_ClientesRecibidos_Fotos_ListView_Columns_IDfoto_Caption##": "IDfoto",
+      "##Views_ClientesRecibidos_Fotos_ListView_Columns_Foto_Caption##": "Foto",
       "##Views_DatosGeograficos_DetailView_Caption##": "Datos Geograficos",
       "##Views_DatosGeograficos_DetailView_Items_Title_Caption##": "Title",
       "##Views_DatosGeograficos_DetailView_Items_Title_ToolTip##": "",
@@ -91982,8 +92089,6 @@
       "##Views_EstadosPredioServicio_LookupListView_Caption##": "Estados Predio Servicio",
       "##Views_Fotos_ListView_Caption##": "Fotos",
       "##Views_Fotos_DetailView_Caption##": "Fotos",
-      "##Views_Fotos_DetailView_Items_IDfoto_Caption##": "IDfoto",
-      "##Views_Fotos_DetailView_Items_IDfoto_ToolTip##": "",
       "##Views_Fotos_DetailView_Items_TipoFoto_Caption##": "Tipo Foto",
       "##Views_Fotos_DetailView_Items_Foto_Caption##": "Foto",
       "##Views_Fotos_LookupListView_Caption##": "Fotos",
@@ -92277,6 +92382,8 @@
       "##Views_ClientesRecibidos_Novedades_ListView_Columns_Observaciones_Caption##": "Observaciones",
       "##Views_ClientesRecibidos_DatosGeograficos_ListView_Caption##": "Datos Geograficos",
       "##Views_ClientesRecibidos_Fotos_ListView_Caption##": "Fotos",
+      "##Views_ClientesRecibidos_Fotos_ListView_Columns_IDfoto_Caption##": "IDfoto",
+      "##Views_ClientesRecibidos_Fotos_ListView_Columns_Foto_Caption##": "Foto",
       "##Views_DatosGeograficos_DetailView_Caption##": "Datos Geograficos",
       "##Views_DatosGeograficos_DetailView_Items_Title_Caption##": "Title",
       "##Views_DatosGeograficos_DetailView_Items_Title_ToolTip##": "",
@@ -92307,8 +92414,6 @@
       "##Views_EstadosPredioServicio_LookupListView_Caption##": "Estados Predio Servicio",
       "##Views_Fotos_ListView_Caption##": "Fotos",
       "##Views_Fotos_DetailView_Caption##": "Fotos",
-      "##Views_Fotos_DetailView_Items_IDfoto_Caption##": "IDfoto",
-      "##Views_Fotos_DetailView_Items_IDfoto_ToolTip##": "",
       "##Views_Fotos_DetailView_Items_TipoFoto_Caption##": "Tipo Foto",
       "##Views_Fotos_DetailView_Items_Foto_Caption##": "Foto",
       "##Views_Fotos_LookupListView_Caption##": "Fotos",
