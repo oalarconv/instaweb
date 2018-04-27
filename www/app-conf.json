@@ -6121,6 +6121,19 @@
           "selectedItemKeys": "$model.SelectedObjects",
           "pullRefreshEnabled": true,
           "onSelectionChanged": "\r\n                                        if(window.selectionTimeoutId !='undefined' || window.selectionTimeoutId != null) {\r\n                                            window.clearTimeout(window.selectionTimeoutId);\r\n                                        }\r\n                                        window.selectionTimeoutId = window.setTimeout(function(){ \r\n                                            $global.updateModel({ model: $model });\r\n                                            window.selectionTimeoutId = null;\r\n                                        }, 800);",
+          "grouped": "$model.IsGrouped",
+          "groupComponents": [
+            {
+              "style": {
+                "width": "100%",
+                "wordBreak": "break-all",
+                "padding": "0px",
+                "fontWeight": "bold"
+              },
+              "type": "label",
+              "text": "=(function() { \r\n                var propertyVal; \r\n                try {\r\n                  propertyVal = $data.items[0].Inspector;\r\n                } \r\n                catch(err) { } \r\n                return $global.replaceRn({ value: propertyVal }); }) ()"
+            }
+          ],
           "itemComponents": [
             {
               "style": {
@@ -6231,7 +6244,12 @@
         {
           "id": "listViewDataSource",
           "store": "MtgXafMedidores_Module_ClientesRecibidos",
-          "sort": [],
+          "sort": [
+            {
+              "getter": "Inspector"
+            }
+          ],
+          "group": "Inspector",
           "filter": "$model.listViewDataSourceFilter",
           "paginate": true,
           "pageSize": 20,
@@ -19141,7 +19159,7 @@
                             "color": ""
                           },
                           "type": "lookup",
-                          "displayExpression": "ID",
+                          "displayExpression": "condicion",
                           "valueExpression": "this",
                           "fullScreen": true,
                           "pullRefreshEnabled": true,
@@ -21726,7 +21744,7 @@
                             "color": ""
                           },
                           "type": "label",
-                          "text": "$model.CurrentObject.MedidorExistente.ID",
+                          "text": "$model.CurrentObject.MedidorExistente.condicion",
                           "id": "MedidorExistente",
                           "title": "##Views_DatosMedidores_DetailView_Items_MedidorExistente_Caption##:"
                         },
@@ -23080,7 +23098,7 @@
                     "color": ""
                   },
                   "type": "label",
-                  "text": "$data.MedidorExistente.ID",
+                  "text": "$data.MedidorExistente.condicion",
                   "id": "MedidorExistente",
                   "title": ""
                 }
@@ -51033,6 +51051,19 @@
           "selectedItemKeys": "$model.SelectedObjects",
           "pullRefreshEnabled": true,
           "onSelectionChanged": "\r\n                                        if(window.selectionTimeoutId !='undefined' || window.selectionTimeoutId != null) {\r\n                                            window.clearTimeout(window.selectionTimeoutId);\r\n                                        }\r\n                                        window.selectionTimeoutId = window.setTimeout(function(){ \r\n                                            $global.updateModel({ model: $model });\r\n                                            window.selectionTimeoutId = null;\r\n                                        }, 800);",
+          "grouped": "$model.IsGrouped",
+          "groupComponents": [
+            {
+              "style": {
+                "width": "100%",
+                "wordBreak": "break-all",
+                "padding": "0px",
+                "fontWeight": "bold"
+              },
+              "type": "label",
+              "text": "=(function() { \r\n                var propertyVal; \r\n                try {\r\n                  propertyVal = $data.items[0].Inspector;\r\n                } \r\n                catch(err) { } \r\n                return $global.replaceRn({ value: propertyVal }); }) ()"
+            }
+          ],
           "itemComponents": [
             {
               "style": {
@@ -51045,6 +51076,20 @@
               "colCount": 1,
               "id": "RowLayout",
               "items": [
+                {
+                  "style": {
+                    "width": "100%",
+                    "wordBreak": "break-all",
+                    "padding": "0px",
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "color": ""
+                  },
+                  "type": "label",
+                  "text": "=(function() { \r\n                var propertyVal; \r\n                try {\r\n                  propertyVal = $data.Inspector;\r\n                } \r\n                catch(err) { } \r\n                return $global.replaceRn({ value: propertyVal }); }) ()",
+                  "id": "Inspector",
+                  "title": "##Views_ClientesRecibidos_ListView_Ejec_Columns_Inspector_Caption##"
+                },
                 {
                   "style": {
                     "width": "100%",
@@ -51143,7 +51188,12 @@
         {
           "id": "listViewDataSource",
           "store": "MtgXafMedidores_Module_ClientesRecibidos",
-          "sort": [],
+          "sort": [
+            {
+              "getter": "Inspector"
+            }
+          ],
+          "group": "Inspector",
           "filter": "$model.listViewDataSourceFilter",
           "paginate": true,
           "pageSize": 20,
@@ -92166,6 +92216,7 @@
       "##Views_RutaMapa_DetailView_Layout_Main_Tabs_Fotos_Caption##": "Fotos",
       "##Views_ClientesRecibidos_ListView_Ejec_Caption##": "Clientes Recibidos",
       "##Views_ClientesRecibidos_ListView_Ejec_Columns_Direccion_Caption##": "Direccion",
+      "##Views_ClientesRecibidos_ListView_Ejec_Columns_Inspector_Caption##": "Inspector",
       "##Views_ClientesRecibidos_ListView_Ejec_Columns_NombreCLiente_Caption##": "Nombre CLiente",
       "##Views_ClientesRecibidos_ListView_Ejec_Columns_Parroquia_Caption##": "Parroquia",
       "##NavigationItems_Items_Default_Items_ClientesRecibidos_ListView_Caption##": "Ordenes Pendientes",
@@ -92491,6 +92542,7 @@
       "##Views_RutaMapa_DetailView_Layout_Main_Tabs_Fotos_Caption##": "Fotos",
       "##Views_ClientesRecibidos_ListView_Ejec_Caption##": "Clientes Recibidos",
       "##Views_ClientesRecibidos_ListView_Ejec_Columns_Direccion_Caption##": "Direccion",
+      "##Views_ClientesRecibidos_ListView_Ejec_Columns_Inspector_Caption##": "Inspector",
       "##Views_ClientesRecibidos_ListView_Ejec_Columns_NombreCLiente_Caption##": "Nombre CLiente",
       "##Views_ClientesRecibidos_ListView_Ejec_Columns_Parroquia_Caption##": "Parroquia",
       "##NavigationItems_Items_Default_Items_ClientesRecibidos_ListView_Caption##": "Ordenes Pendientes",
